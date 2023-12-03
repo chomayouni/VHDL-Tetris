@@ -1,0 +1,238 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov 29 17:41:09 2023
+# Process ID: 65532
+# Current directory: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent60360 C:\Users\conno\Downloads\lab5Complete\lab5bpModBounce\lab5bpMod\lab5bpMod.xpr
+# Log file: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/vivado.log
+# Journal file: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod\vivado.jou
+# Running On: CDH-UNIT-G14, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16354 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files C:/Users/conno/Downloads/lab5Complete/lab5bpMod/lab5bpMod.srcs/utils_1/imports/synth_1/group_photos_top2.dcp] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 C:/Users/conno/Downloads/lab5Complete/lab5bpMod/lab5bpMod.srcs/utils_1/imports/synth_1/group_photos_top2.dcp
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name Tetris_Background_Sprite
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/conno/Desktop/VHDL Tetris/TestBack8.coe} \
+  CONFIG.Enable_A {Always_Enabled} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {326400} \
+  CONFIG.Write_Width_A {8} \
+] [get_ips Tetris_Background_Sprite]
+generate_target {instantiation_template} [get_files c:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/ip/Tetris_Background_Sprite/Tetris_Background_Sprite.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/ip/Tetris_Background_Sprite/Tetris_Background_Sprite.xci]
+catch { config_ip_cache -export [get_ips -all Tetris_Background_Sprite] }
+export_ip_user_files -of_objects [get_files c:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/ip/Tetris_Background_Sprite/Tetris_Background_Sprite.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files c:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/ip/Tetris_Background_Sprite/Tetris_Background_Sprite.xci] -directory C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.ip_user_files -ipstatic_source_dir C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.cache/compile_simlib/modelsim} {questa=C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.cache/compile_simlib/questa} {riviera=C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.cache/compile_simlib/riviera} {activehdl=C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close [ open C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_VGA_Top.vhd w ]
+add_files C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_VGA_Top.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Tetris_VGA_Top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close [ open C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_VGA_640x480.vhd w ]
+add_files C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_VGA_640x480.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_Sprite_Display.vhd w ]
+add_files C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/Tetris_Sprite_Display.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/imports/new/group_photos_top.vhd]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/imports/new/group_photos_top2.vhd]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/vga_640x480_bpMod.vhd]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/ip/Background8/Background8.xci]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/vga_bsprite4a.vhd]
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.srcs/sources_1/new/vga_bsprite4a2.vhd]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.runs/impl_1/Tetris_VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

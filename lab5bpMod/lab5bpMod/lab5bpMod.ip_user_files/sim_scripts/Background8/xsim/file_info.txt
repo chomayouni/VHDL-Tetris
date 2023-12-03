@@ -1,0 +1,2 @@
+Background8.v,verilog,xil_defaultlib,../../../../lab5bpMod.gen/sources_1/ip/Background8/sim/Background8.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

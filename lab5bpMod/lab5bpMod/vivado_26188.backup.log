@@ -1,0 +1,639 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Oct 22 19:52:44 2023
+# Process ID: 26188
+# Current directory: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9044 C:\Users\conno\Downloads\lab5bpMod\lab5bpMod\lab5bpMod.xpr
+# Log file: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/vivado.log
+# Journal file: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod\vivado.jou
+# Running On: CDH-UNIT-G14, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16354 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/JohnAdmin/Desktop/College/ECE4710/incompletelabs/lab5/lab5bpMod' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'A8' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'A8' (customized with software release 2021.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'B8' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B8' (customized with software release 2021.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'Background8' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'Background8' (customized with software release 2021.2) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'lab5bpMod.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1529.906 ; gain = 378.551
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.gen/sources_1/ip/A8/A8.dcp' for cell 'U4'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.gen/sources_1/ip/B8/B8.dcp' for cell 'U5'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1933.461 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[0]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[3]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[5]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[6]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[7]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[8]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[9]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[10]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[11]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[12]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[13]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[14]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld[15]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld16b'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld16g'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld16r'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld17b'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld17g'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ld17r'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[6]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[5]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[3]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a_to_g[0]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja1'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja2'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja3'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja4'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja7'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja8'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja9'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ja10'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb1'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb2'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb3'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb4'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb7'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb8'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb9'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jb10'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc1'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc2'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc3'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc4'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc7'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc8'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc9'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc10'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd1'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd2'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd3'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd4'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd7'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd8'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd9'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd10'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_n[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_p[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_n[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_p[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_n[3]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_p[3]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_n[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'xa_p[4]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_MISO'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_MOSI'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_SCLK'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_CSN'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[1]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ACL_INT[2]'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_SCL'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_SDA'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_INT'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_CT'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIC_CLK'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIC_DATA'. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:162]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc:162]
+Finished Parsing XDC File [C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/constrs_1/imports/ECE4710/nexys4_ddr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2042.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 2171.262 ; gain = 614.930
+open_project C:/Users/conno/Lab5/lab5background/lab5/lab5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'B8' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'B8' (customized with software release 2021.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'A8' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'A8' (customized with software release 2021.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'Background' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'Background' (customized with software release 2021.2) has a different revision in the IP Catalog.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2624.641 ; gain = 14.281
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/utils_1/imports/synth_1/vga_bsprite_top2.dcp with file C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/synth_1/group_photos_top2.dcp
+reset_run A8_synth_1
+reset_run Background_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: B8
+WARNING: [Vivado 12-4801] The synthesis checkpoint for IP 'C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/B8/B8.xci' is available but stale and the IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run A8_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-577] IP run Background_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/A8/A8.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/Background/Background.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/B8/B8.xci
+
+WARNING: [Project 1-576] IP 'C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/A8/A8.xci' in run A8_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'C:/Users/conno/Lab5/lab5background/lab5/lab5.srcs/sources_1/ip/Background/Background.xci' in run Background_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Mon Oct 23 15:34:57 2023] Launched A8_synth_1, Background_synth_1, synth_1...
+Run output will be captured here:
+A8_synth_1: C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/A8_synth_1/runme.log
+Background_synth_1: C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/Background_synth_1/runme.log
+synth_1: C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/synth_1/runme.log
+[Mon Oct 23 15:34:57 2023] Launched impl_1...
+Run output will be captured here: C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-11:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2667.883 ; gain = 1.207
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D02AA
+set_property PROGRAM.FILE {C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Lab5/lab5background/lab5/lab5.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_project lab5bpMod
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/utils_1/imports/synth_1/group_photos_top2.dcp with file C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/synth_1/group_photos_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 23 15:46:05 2023] Launched synth_1...
+Run output will be captured here: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/synth_1/runme.log
+[Mon Oct 23 15:46:05 2023] Launched impl_1...
+Run output will be captured here: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/runme.log
+current_project lab5
+close_project
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-11:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B9D02AA
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property top group_photos_top2 [current_fileset]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/sources_1/imports/new/group_photos_top.vhd]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.srcs/utils_1/imports/synth_1/group_photos_top2.dcp with file C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/synth_1/group_photos_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Oct 23 15:53:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/synth_1/runme.log
+[Mon Oct 23 15:53:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/conno/Downloads/lab5bpMod/lab5bpMod/lab5bpMod.runs/impl_1/group_photos_top2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 23 16:11:30 2023...

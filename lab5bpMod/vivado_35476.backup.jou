@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Oct 25 19:38:30 2023
+# Process ID: 35476
+# Current directory: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14260 C:\Users\conno\Downloads\lab5Complete\lab5bpModBounce\lab5bpMod\lab5bpMod.xpr
+# Log file: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/vivado.log
+# Journal file: C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod\vivado.jou
+# Running On: CDH-UNIT-G14, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16354 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/conno/Downloads/lab5Complete/lab5bpModBounce/lab5bpMod/lab5bpMod.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1

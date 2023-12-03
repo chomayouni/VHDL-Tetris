@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../lab5bpMod.gen/sources_1/ip/Tetris_Background_Sprite/sim/Tetris_Background_Sprite.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
